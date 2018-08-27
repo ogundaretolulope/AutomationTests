@@ -1,0 +1,27 @@
+
+
+Thank you very much for the taking a look at this Test Framework, I've enjoyed working on it myself :)
+
+
+----- Pre-requisite to run tests: -----
+1. Maven should be available on PC.
+2. PC is configured with maven home, java home and at least chromedriver.
+
+----- To run tests: -----
+1. Pull the framework to your local directory of choice
+2. Open command prompt.
+3. cd to the directory where the framework is located.
+4. do "mvn compile" (to compile the framework and download all dependencies)
+5. do "mvn install test" (to run all tests)
+6. To view test report go to {user.dir}/target/cucumber.xml
+7. To view embedded screenshots of failed scenarios go to {user.dir}/target/cucumber.
+
+----- NOTE: -----
+There are 2 known failures in this test:
+1. The one required for screenshot as per Test 3.
+2. And the second is the register/login success API test failures - I'm working on a fix for this, don't know why it's failing after many debugging - strange.
+
+----- Tech Debt: ------
+1. Investigate and fix register and login successful test.
+2. Extend webDriver initializer to include firefox, IE, Edge and Safari.
+3. Would be nice to create data file to populate all data. Then create a method to get the data.

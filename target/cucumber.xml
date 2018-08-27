@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="17" time="81.585706">
+    <testcase classname="CRUD operations to test RESTful Services" name="Get list of users" time="18.159093">
+        <system-out>
+            <![CDATA[When I get the list of users................................................passed
+Then I verify the users are 'retrieved'.....................................passed
+And I verify that list of users contains first name.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Get a single user" time="0.51198">
+        <system-out>
+            <![CDATA[When I get details of a single user.........................................passed
+Then I verify the user is 'retrieved'.......................................passed
+And I verify that the user details are present..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="No results for non-existing user" time="0.784412">
+        <system-out>
+            <![CDATA[When I try to get details of non-existing user..............................passed
+Then I verify the user is 'not found'.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Get list of resources" time="0.896115">
+        <system-out>
+            <![CDATA[When I get the list of resources............................................passed
+Then I verify the resources are 'retrieved'.................................passed
+And I verify that resources detail is returned..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Get a single resource" time="0.706049">
+        <system-out>
+            <![CDATA[When I get details of a single resource.....................................passed
+Then I verify the resource is 'retrieved'...................................passed
+And I verify that the resource details is returned..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="No results for non-existing resource" time="0.819297">
+        <system-out>
+            <![CDATA[When I try to get details of non-existing resource..........................passed
+Then I verify the resource is 'not found'...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Create a user" time="0.925492">
+        <system-out>
+            <![CDATA[When I create a user........................................................passed
+Then I verify the user is 'created'.........................................passed
+And I verify the response is correct........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Update a user" time="0.68776">
+        <system-out>
+            <![CDATA[When I 'PUT' a user.........................................................passed
+Then I verify the user is 'updated'.........................................passed
+And I verify the response is correct........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Update a user 2" time="0.931873">
+        <system-out>
+            <![CDATA[When I 'PATCH' a user.......................................................passed
+Then I verify the user is 'updated'.........................................passed
+And I verify the response is correct........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Delete a user" time="0.500825">
+        <system-out>
+            <![CDATA[When I delete a user........................................................passed
+Then I verify the user is 'deleted'.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Register a user" time="1.151861">
+        <failure message="org.junit.ComparisonFailure: expected:&lt;[201]&gt; but was:&lt;[400]&gt;&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at com.BJSS.framework.stepdefs.ApiCallsSteps.iVerifyTheUsersAreRetrieved(ApiCallsSteps.java:60)&#13;&#10;&#9;at ✽.I verify the user is 'registered'(src/test/resources/features/ApiCalls.feature:57)&#13;&#10;">
+            <![CDATA[When I register a user......................................................passed
+Then I verify the user is 'registered'......................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[201]> but was:<[400]>
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.BJSS.framework.stepdefs.ApiCallsSteps.iVerifyTheUsersAreRetrieved(ApiCallsSteps.java:60)
+	at ✽.I verify the user is 'registered'(src/test/resources/features/ApiCalls.feature:57)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Unsuccessful registration of user" time="1.185286">
+        <system-out>
+            <![CDATA[When I try to register a user without password..............................passed
+Then I verify the user is 'not registered'..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Login as a user" time="0.566905">
+        <system-out>
+            <![CDATA[When I log in as a user.....................................................passed
+Then I verify the user is 'logged in'.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Unsuccessful login of user" time="0.422613">
+        <system-out>
+            <![CDATA[When I try to login as a user without password..............................passed
+Then I verify the user is 'not logged in'...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CRUD operations to test RESTful Services" name="Delay get list of user for 3 seconds" time="7.084904">
+        <system-out>
+            <![CDATA[When I get list of users....................................................passed
+Then I verify the users are 'retrieved'.....................................passed
+And I verify response is delayed for 3 seconds..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a customer I want purchase 2 items" name="Purchasing 2 items successfully" time="34.071134">
+        <system-out>
+            <![CDATA[Given I am logged in customer on homepage...................................passed
+When I search for an item 'Blouse'..........................................passed
+And I quick view the item from the search results page......................passed
+And I change the size to 'M'................................................passed
+And I add the item to basket................................................passed
+And I search for another item 'Printed Dress'...............................passed
+And I quick view the item from the search results page......................passed
+And I add the item to basket................................................passed
+And I proceed to basket summary.............................................passed
+Then I verify that the items sizes are correct..............................passed
+And I verify that the items prices are correct..............................passed
+And I am able to complete my order successfully.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a customer I want purchase 2 items" name="Review previous orders and add a message" time="12.180107">
+        <failure message="org.junit.ComparisonFailure: expected:&lt;[blue]&gt; but was:&lt;[red]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.BJSS.framework.stepdefs.PurchaseItemsSteps.iVerifyTheCommentAppearsUnderMessage(PurchaseItemsSteps.java:170)&#13;&#10;&#9;at ✽.I verify the comment appears under message(src/test/resources/features/PurchaseItem.feature:24)&#13;&#10;">
+            <![CDATA[Given I am logged in customer on homepage...................................passed
+And I navigate to my account section........................................passed
+And I click to view orders history..........................................passed
+And I select an item from my previous order.................................passed
+When I add a comment........................................................passed
+Then I verify the comment appears under message.............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[blue]> but was:<[red]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.BJSS.framework.stepdefs.PurchaseItemsSteps.iVerifyTheCommentAppearsUnderMessage(PurchaseItemsSteps.java:170)
+	at ✽.I verify the comment appears under message(src/test/resources/features/PurchaseItem.feature:24)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
