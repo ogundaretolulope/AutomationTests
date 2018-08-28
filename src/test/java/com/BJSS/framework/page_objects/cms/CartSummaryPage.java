@@ -1,7 +1,6 @@
 package com.BJSS.framework.page_objects.cms;
 
 import com.BJSS.framework.helpers.Page_Object_Utility;
-import com.BJSS.framework.helpers.WebDriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

@@ -7,10 +7,6 @@ import com.jayway.restassured.specification.RequestSpecification;
 
 import static com.jayway.restassured.RestAssured.given;
 
-/**
- * Every Api Step definition class should extend this class
- */
-
 public class ApiHelper {
     private static Gson gson;
     private static String baseUrl = "https://reqres.in/";
@@ -37,6 +33,4 @@ public class ApiHelper {
         gson = gsonBuilder.create();
         return gson;
     }
-
-
 }

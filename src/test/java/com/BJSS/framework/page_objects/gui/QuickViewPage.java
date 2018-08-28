@@ -11,7 +11,6 @@ public class QuickViewPage extends Page_Object_Utility {
     private By quickViewIFrame = By.className("fancybox-iframe");
     private By continueShopping = By.cssSelector("#layer_cart > div.clearfix > div.layer_cart_cart.col-xs-12.col-md-6 > div.button-container > span > span");
 
-
     public void focusOnQuickView(){ driver.switchTo().frame(visibilityOf(waitForExpectedElement(quickViewIFrame))); }
 
     public void selectASize(String size){ selectByText(waitForExpectedElement(sizeList), size); }
