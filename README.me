@@ -1,11 +1,9 @@
 
-
 Thank you very much for the taking a look at this Test Framework, I've enjoyed working on it myself :)
-
 
 ----- Pre-requisite to run tests: -----
 1. Maven should be available on PC.
-2. PC is configured with maven home, java home and at least chromedriver.
+2. PC is configured with maven home, java home and at least chromedriver accessible via system path.
 
 ----- To run tests: -----
 1. Pull the framework to your local directory of choice
@@ -18,11 +16,8 @@ Thank you very much for the taking a look at this Test Framework, I've enjoyed w
 8. When importing the project into InteliJ, it's best to import with the pom.xml file.
 
 ----- NOTE: -----
-There are 2 known failures in this test:
-1. The one required for screenshot as per Test 3.
-2. And the second is the register/login success API test failures - I'm working on a fix for this, don't know why it's failing after many debugging - strange.
+There is 1 failure in this test and is one required for screenshot as per Test 3.
 
 ----- Tech Debt: ------
-1. Investigate and fix register and login successful test.
-2. Extend webDriver initializer to include firefox, IE, Edge and Safari.
-3. Would be nice to create test data file to populate all test data. Then create a method to get the data.
+1. Extend WebDriver initializer to include firefox, IE, Edge and Safari for cross browser testing.
+2. Would be also nice to create proterty files to populate all test data. Then create a method to get the data.

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f680e078-0cfb-41c3-94b4-86b8acb27a2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/ApiCallsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/ApiCallsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/PurchaseItemsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/PurchaseItemsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PurchaseItem.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PurchaseItem.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +58,7 @@
           <entry key="dummy" value="1" />
           <entry key="feature" value="3485" />
           <entry key="java" value="20463" />
-          <entry key="me" value="570" />
+          <entry key="me" value="686" />
           <entry key="xml" value="129" />
         </counts>
       </usages-collector>
@@ -70,7 +66,7 @@
         <counts>
           <entry key="Cucumber" value="3485" />
           <entry key="JAVA" value="20463" />
-          <entry key="PLAIN_TEXT" value="579" />
+          <entry key="PLAIN_TEXT" value="695" />
           <entry key="XML" value="121" />
         </counts>
       </usages-collector>
@@ -92,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="224">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -142,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.me">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+            <state relative-caret-position="266">
+              <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -265,11 +261,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/Page_Object_Utility.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/CartSummaryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/gui/QuickViewPage.java" />
-        <option value="$PROJECT_DIR$/README.me" />
         <option value="$PROJECT_DIR$/src/test/resources/features/PurchaseItem.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/PurchaseItemsSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/ApiCallsSteps.java" />
+        <option value="$PROJECT_DIR$/README.me" />
       </list>
     </option>
   </component>
@@ -328,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535525969550" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535526315883" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RunDashboard">
@@ -777,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.me">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/PurchaseItemsSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -835,8 +824,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="224">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.me">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
         </state>
       </provider>
     </entry>
