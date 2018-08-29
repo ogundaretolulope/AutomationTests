@@ -160,7 +160,11 @@ public class PurchaseItemsSteps {
     @Then("^I verify the comment appears under message$")
     public void iVerifyTheCommentAppearsUnderMessage(){
         assertEquals(orderHistoryPage.lastSavedComment(), orderHistoryPageModel.getOrderComment());
-        assertEquals("blue", "red");
+    }
+
+    @And("^I verify colour of item selected is '(.*)'$")
+    public void iVerifyColourOfItemSelected(String colour){
+        assertEquals("blue", colour);
     }
 
     @After

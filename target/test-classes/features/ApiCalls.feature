@@ -1,3 +1,4 @@
+@API
 Feature: CRUD operations to test RESTful Services
 
   Scenario: Get list of users - LIST USERS
@@ -55,6 +56,7 @@ Feature: CRUD operations to test RESTful Services
       |   email     |   password  |
       | sydney@fife |   pistol    |
     Then I verify the user is 'registered'
+    And I verify token is retrieved
 
   Scenario: Unsuccessful registration of user - REGISTER UNSUCCESSFUL
     When I try to register a user without password
@@ -65,6 +67,7 @@ Feature: CRUD operations to test RESTful Services
       |   email      |   password      |
       | peter@klaven |   cityslicka    |
     Then I verify the user is 'logged in'
+    And I verify token is retrieved
 
   Scenario: Unsuccessful login of user - LOGIN UNSUCCESSFUL
     When I try to login as a user without password

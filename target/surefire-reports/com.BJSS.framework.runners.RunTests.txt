@@ -1,10 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.BJSS.framework.runners.RunTests
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 84.763 s <<< FAILURE! - in com.BJSS.framework.runners.RunTests
-Register a user(CRUD operations to test RESTful Services)  Time elapsed: 1.103 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[201]> but was:<[400]>
-
-Review previous orders and add a message(As a customer I want purchase 2 items)  Time elapsed: 12.162 s  <<< FAILURE!
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 70.82 s <<< FAILURE! - in com.BJSS.framework.runners.RunTests
+Review previous orders and add a message(As a customer I want purchase 2 items)  Time elapsed: 12.984 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[blue]> but was:<[red]>
 

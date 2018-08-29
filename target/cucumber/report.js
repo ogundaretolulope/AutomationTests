@@ -2,12 +2,22 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "CRUD operations to test RESTful Services",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.scenario({
-  "name": "Get list of users",
+  "name": "Get list of users - LIST USERS",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I get the list of users",
@@ -42,13 +52,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Get a single user",
+  "name": "Get a single user - SINGLE USER",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I get details of a single user",
@@ -83,13 +95,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "No results for non-existing user",
+  "name": "No results for non-existing user - SINGLE USER NOT FOUND",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I try to get details of non-existing user",
@@ -114,13 +128,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Get list of resources",
+  "name": "Get list of resources - LIST \u003cRESOURCES\u003e",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I get the list of resources",
@@ -155,13 +171,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Get a single resource",
+  "name": "Get a single resource - SINGLE \u003cRESOURCE\u003e",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I get details of a single resource",
@@ -196,13 +214,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "No results for non-existing resource",
+  "name": "No results for non-existing resource - SINGLE \u003cRESOURCE\u003e NOT FOUND",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I try to get details of non-existing resource",
@@ -227,13 +247,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Create a user",
+  "name": "Create a user - CREATE",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I create a user",
@@ -282,11 +304,8 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenarioOutline({
-  "name": "Update a user",
+  "name": "Update a user - UPDATE",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -339,9 +358,14 @@ formatter.examples({
   ]
 });
 formatter.scenario({
-  "name": "Update a user",
+  "name": "Update a user - UPDATE",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I \u0027PUT\u0027 a user",
@@ -390,13 +414,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Update a user",
+  "name": "Update a user - UPDATE",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I \u0027PATCH\u0027 a user",
@@ -445,13 +471,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Delete a user",
+  "name": "Delete a user - DELETE",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I delete a user",
@@ -476,13 +504,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Register a user",
+  "name": "Register a user - REGISTER SUCCESSFUL",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I register a user",
@@ -516,20 +546,30 @@ formatter.match({
   "location": "ApiCallsSteps.iVerifyTheUsersAreRetrieved(String)"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[201]\u003e but was:\u003c[400]\u003e\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat com.BJSS.framework.stepdefs.ApiCallsSteps.iVerifyTheUsersAreRetrieved(ApiCallsSteps.java:60)\r\n\tat ✽.I verify the user is \u0027registered\u0027(src/test/resources/features/ApiCalls.feature:57)\r\n",
-  "status": "failed"
-});
-formatter.after({
   "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
+formatter.step({
+  "name": "I verify token is retrieved",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ApiCallsSteps.iVerifyTokenIsRetrieved()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Unsuccessful registration of user",
+  "name": "Unsuccessful registration of user - REGISTER UNSUCCESSFUL",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I try to register a user without password",
@@ -554,13 +594,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Login as a user",
+  "name": "Login as a user - LOGIN SUCCESSFUL",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I log in as a user",
@@ -596,16 +638,28 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.after({
+formatter.step({
+  "name": "I verify token is retrieved",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ApiCallsSteps.iVerifyTokenIsRetrieved()"
+});
+formatter.result({
   "status": "passed"
 });
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Unsuccessful login of user",
+  "name": "Unsuccessful login of user - LOGIN UNSUCCESSFUL",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I try to login as a user without password",
@@ -630,13 +684,15 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Delay get list of user for 3 seconds",
+  "name": "Delay get list of user for 3 seconds - DELAYED RESPONSE",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@API"
+    }
+  ]
 });
 formatter.step({
   "name": "I get list of users",
@@ -671,19 +727,29 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.uri("src/test/resources/features/PurchaseItem.feature");
 formatter.feature({
   "name": "As a customer I want purchase 2 items",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@UI"
+    }
+  ]
 });
 formatter.scenario({
   "name": "Purchasing 2 items successfully",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@UI"
+    },
+    {
+      "name": "@Test-1"
+    }
+  ]
 });
 formatter.step({
   "name": "I am logged in customer on homepage",
@@ -808,13 +874,21 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
 formatter.scenario({
   "name": "Review previous orders and add a message",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@UI"
+    },
+    {
+      "name": "@Test-2"
+    },
+    {
+      "name": "@Test-3"
+    }
+  ]
 });
 formatter.step({
   "name": "I am logged in customer on homepage",
@@ -874,13 +948,20 @@ formatter.match({
   "location": "PurchaseItemsSteps.iVerifyTheCommentAppearsUnderMessage()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[blue]\u003e but was:\u003c[red]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.BJSS.framework.stepdefs.PurchaseItemsSteps.iVerifyTheCommentAppearsUnderMessage(PurchaseItemsSteps.java:170)\r\n\tat ✽.I verify the comment appears under message(src/test/resources/features/PurchaseItem.feature:24)\r\n",
-  "status": "failed"
-});
-formatter.after({
   "status": "passed"
 });
-formatter.embedding("image/png", "embedded1.png");
+formatter.step({
+  "name": "I verify colour of item selected is \u0027red\u0027",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "PurchaseItemsSteps.iVerifyColourOfItemSelected(String)"
+});
+formatter.result({
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[blue]\u003e but was:\u003c[red]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.BJSS.framework.stepdefs.PurchaseItemsSteps.iVerifyColourOfItemSelected(PurchaseItemsSteps.java:167)\r\n\tat ✽.I verify colour of item selected is \u0027red\u0027(src/test/resources/features/PurchaseItem.feature:27)\r\n",
+  "status": "failed"
+});
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
   "status": "passed"
 });
