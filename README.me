@@ -1,23 +1,26 @@
 
-Thank you very much for the taking a look at this Test Framework, I've enjoyed working on it myself :)
-
------ Pre-requisite to run tests: -----
+---------------- REQUIREMENTS TO RUN TESTS ----------------
 1. Maven should be available on PC.
-2. PC is configured with maven home, java home and at least chromedriver accessible via system path.
+2. PC is configured with maven home, java home and at least chrome browser.
 
------ To run tests: -----
+
+---------------- RUNNING TESTS --------------------
 1. Pull the framework to your local directory of choice
-2. Open command prompt.
-3. cd to the directory where the framework is located.
+2. Open command prompt
+3. cd to the directory where the framework is located
 4. do "mvn compile" (to compile the framework and download all dependencies)
 5. do "mvn install test" (to run all tests)
 6. To view TEST REPORT go to -> {user.dir}/target/cucumber.xml
-7. To view embedded SCREENSHOTS of failed scenarios go to -> {user.dir}/target/cucumber
-8. When importing the project into InteliJ, it's best to import with the pom.xml file.
+7. To view screenshots of failed scenarios go to -> {user.dir}/target/cucumber
+8. When importing the project into IntelliJ, use the pom.xml file.
 
------ NOTE: -----
+
+---------------- NOTE ----------------------------
 There is 1 failure in this test and is one required for screenshot as per Test 3.
 
------ Tech Debt: ------
-1. Extend WebDriver initializer to include firefox, IE, Edge and Safari for cross browser testing.
-2. Would be also nice to create proterty files to populate all test data. Then create a method to get the data.
+
+---------------- TECH DEBT -----------------------
+1. Make WebDriverHelper more dynamic and to be able to start with firefox, IE, Edge and Safari for cross browser testing.
+2. Create folder for screenshots for easier access.
+3. Add a TestNg test suite just in case selenium grid will be needed in the future.
+4. Make ScreenshotHelper global by using cucumber After listener.
