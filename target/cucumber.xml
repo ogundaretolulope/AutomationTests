@@ -1,123 +1,92 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="17" time="69.088534">
-    <testcase classname="CRUD operations to test RESTful Services" name="Get list of users - LIST USERS" time="10.358702">
-        <system-out>
-            <![CDATA[When I get the list of users................................................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="17" time="78.282156">
+<testcase classname="CRUD operations to test RESTful Services" name="Get list of users - LIST USERS" time="7.95767">
+<system-out><![CDATA[When I get the list of users................................................passed
 Then I verify the users are 'retrieved'.....................................passed
 And I verify that list of users contains first name.........................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Get a single user - SINGLE USER" time="0.604829">
-        <system-out>
-            <![CDATA[When I get details of a single user.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Get a single user - SINGLE USER" time="0.511953">
+<system-out><![CDATA[When I get details of a single user.........................................passed
 Then I verify the user is 'retrieved'.......................................passed
 And I verify that the user details are present..............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="No results for non-existing user - SINGLE USER NOT FOUND" time="0.503534">
-        <system-out>
-            <![CDATA[When I try to get details of non-existing user..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="No results for non-existing user - SINGLE USER NOT FOUND" time="0.449499">
+<system-out><![CDATA[When I try to get details of non-existing user..............................passed
 Then I verify the user is 'not found'.......................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Get list of resources - LIST &lt;RESOURCES&gt;" time="0.682809">
-        <system-out>
-            <![CDATA[When I get the list of resources............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Get list of resources - LIST &lt;RESOURCES&gt;" time="0.53896">
+<system-out><![CDATA[When I get the list of resources............................................passed
 Then I verify the resources are 'retrieved'.................................passed
 And I verify that resources detail is returned..............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Get a single resource - SINGLE &lt;RESOURCE&gt;" time="0.523661">
-        <system-out>
-            <![CDATA[When I get details of a single resource.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Get a single resource - SINGLE &lt;RESOURCE&gt;" time="0.468309">
+<system-out><![CDATA[When I get details of a single resource.....................................passed
 Then I verify the resource is 'retrieved'...................................passed
 And I verify that the resource details is returned..........................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="No results for non-existing resource - SINGLE &lt;RESOURCE&gt; NOT FOUND" time="0.470842">
-        <system-out>
-            <![CDATA[When I try to get details of non-existing resource..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="No results for non-existing resource - SINGLE &lt;RESOURCE&gt; NOT FOUND" time="0.453943">
+<system-out><![CDATA[When I try to get details of non-existing resource..........................passed
 Then I verify the resource is 'not found'...................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Create a user - CREATE" time="0.972501">
-        <system-out>
-            <![CDATA[When I create a user........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Create a user - CREATE" time="0.524522">
+<system-out><![CDATA[When I create a user........................................................passed
 Then I verify the user is 'created'.........................................passed
 And I verify the response is correct........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Update a user - UPDATE" time="0.874214">
-        <system-out>
-            <![CDATA[When I 'PUT' a user.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Update a user - UPDATE" time="0.505158">
+<system-out><![CDATA[When I 'PUT' a user.........................................................passed
 Then I verify the user is 'updated'.........................................passed
 And I verify the response is correct........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Update a user - UPDATE 2" time="0.905777">
-        <system-out>
-            <![CDATA[When I 'PATCH' a user.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Update a user - UPDATE 2" time="0.44602">
+<system-out><![CDATA[When I 'PATCH' a user.......................................................passed
 Then I verify the user is 'updated'.........................................passed
 And I verify the response is correct........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Delete a user - DELETE" time="0.84877">
-        <system-out>
-            <![CDATA[When I delete a user........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Delete a user - DELETE" time="0.441056">
+<system-out><![CDATA[When I delete a user........................................................passed
 Then I verify the user is 'deleted'.........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Register a user - REGISTER SUCCESSFUL" time="0.805186">
-        <system-out>
-            <![CDATA[When I register a user......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Register a user - REGISTER SUCCESSFUL" time="0.547647">
+<system-out><![CDATA[When I register a user......................................................passed
 Then I verify the user is 'registered'......................................passed
 And I verify token is retrieved.............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Unsuccessful registration of user - REGISTER UNSUCCESSFUL" time="0.728676">
-        <system-out>
-            <![CDATA[When I try to register a user without password..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Unsuccessful registration of user - REGISTER UNSUCCESSFUL" time="0.46388">
+<system-out><![CDATA[When I try to register a user without password..............................passed
 Then I verify the user is 'not registered'..................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Login as a user - LOGIN SUCCESSFUL" time="0.459292">
-        <system-out>
-            <![CDATA[When I log in as a user.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Login as a user - LOGIN SUCCESSFUL" time="0.309082">
+<system-out><![CDATA[When I log in as a user.....................................................passed
 Then I verify the user is 'logged in'.......................................passed
 And I verify token is retrieved.............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Unsuccessful login of user - LOGIN UNSUCCESSFUL" time="0.482922">
-        <system-out>
-            <![CDATA[When I try to login as a user without password..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Unsuccessful login of user - LOGIN UNSUCCESSFUL" time="0.454301">
+<system-out><![CDATA[When I try to login as a user without password..............................passed
 Then I verify the user is 'not logged in'...................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="CRUD operations to test RESTful Services" name="Delay get list of user for 3 seconds - DELAYED RESPONSE" time="7.355848">
-        <system-out>
-            <![CDATA[When I get list of users....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CRUD operations to test RESTful Services" name="Delay get list of user for 3 seconds - DELAYED RESPONSE" time="6.977421">
+<system-out><![CDATA[When I get list of users....................................................passed
 Then I verify the users are 'retrieved'.....................................passed
 And I verify response is delayed for 3 seconds..............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="As a customer I want purchase 2 items" name="Purchasing 2 items successfully" time="29.517326">
-        <system-out>
-            <![CDATA[Given I am logged in customer on homepage...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a customer I want purchase 2 items" name="Purchasing 2 items successfully" time="44.295927">
+<system-out><![CDATA[Given I am logged in customer on homepage...................................passed
 When I search for an item 'Blouse'..........................................passed
 And I quick view the item from the search results page......................passed
 And I change the size to 'M'................................................passed
@@ -129,12 +98,10 @@ And I proceed to basket summary.............................................pass
 Then I verify that the items sizes are correct..............................passed
 And I verify that the items prices are correct..............................passed
 And I am able to complete my order successfully.............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="As a customer I want purchase 2 items" name="Review previous orders and add a message" time="12.993645">
-        <failure message="org.junit.ComparisonFailure: expected:&lt;[blue]&gt; but was:&lt;[red]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.BJSS.framework.stepdefs.PurchaseItemsSteps.iVerifyColourOfItemSelected(PurchaseItemsSteps.java:167)&#13;&#10;&#9;at ✽.I verify colour of item selected is 'red'(src/test/resources/features/PurchaseItem.feature:27)&#13;&#10;">
-            <![CDATA[Given I am logged in customer on homepage...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a customer I want purchase 2 items" name="Review previous orders and add a message" time="12.936808">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[blue]&gt; but was:&lt;[red]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.BJSS.framework.stepdefinitions.PurchaseItemsSteps.iVerifyColourOfItemSelected(PurchaseItemsSteps.java:166)&#13;&#10;&#9;at ✽.I verify colour of item selected is 'red'(src/test/resources/features/PurchaseItem.feature:27)&#13;&#10;"><![CDATA[Given I am logged in customer on homepage...................................passed
 And I navigate to my account section........................................passed
 And I click to view orders history..........................................passed
 And I select an item from my previous order.................................passed
@@ -146,9 +113,8 @@ StackTrace:
 org.junit.ComparisonFailure: expected:<[blue]> but was:<[red]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.BJSS.framework.stepdefs.PurchaseItemsSteps.iVerifyColourOfItemSelected(PurchaseItemsSteps.java:167)
+	at com.BJSS.framework.stepdefinitions.PurchaseItemsSteps.iVerifyColourOfItemSelected(PurchaseItemsSteps.java:166)
 	at ✽.I verify colour of item selected is 'red'(src/test/resources/features/PurchaseItem.feature:27)
-]]>
-        </failure>
-    </testcase>
+]]></failure>
+</testcase>
 </testsuite>

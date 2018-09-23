@@ -958,7 +958,7 @@ formatter.match({
   "location": "PurchaseItemsSteps.iVerifyColourOfItemSelected(String)"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[blue]\u003e but was:\u003c[red]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.BJSS.framework.stepdefs.PurchaseItemsSteps.iVerifyColourOfItemSelected(PurchaseItemsSteps.java:167)\r\n\tat ✽.I verify colour of item selected is \u0027red\u0027(src/test/resources/features/PurchaseItem.feature:27)\r\n",
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[blue]\u003e but was:\u003c[red]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.BJSS.framework.stepdefinitions.PurchaseItemsSteps.iVerifyColourOfItemSelected(PurchaseItemsSteps.java:166)\r\n\tat ✽.I verify colour of item selected is \u0027red\u0027(src/test/resources/features/PurchaseItem.feature:27)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded0.png");

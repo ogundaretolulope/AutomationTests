@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f680e078-0cfb-41c3-94b4-86b8acb27a2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/BJSS/framework/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/Page_Object_Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/PageObjectUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/WebDriverHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/WebDriverHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/api/ApiCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/api/ApiCalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/BillingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/BillingAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/CartSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/CartSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/MyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/OrderConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/OrderConfirmationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/OrderHistoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/OrderHistoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/PaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/ShippingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/ShippingAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/gui/QuickViewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/gui/QuickViewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/runners/RunTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/runners/RunTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/ApiCallsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefinitions/ApiCallsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/PurchaseItemsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefinitions/PurchaseItemsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.BJSS.framework.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.BJSS.framework.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.BJSS.framework.runners.RunTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.BJSS.framework.runners.RunTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.BJSS.framework.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.BJSS.framework.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.BJSS.framework.runners.RunTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.BJSS.framework.runners.RunTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/helpers/WebDriverHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/helpers/WebDriverHelper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/helpers/WebDriverHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/helpers/WebDriverHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/models/UserDetailModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/models/UserDetailModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/models/UserRegisterModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/models/UserRegisterModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/models/UsersDetailsModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/models/UsersDetailsModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/page_objects/api/ApiCalls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/page_objects/api/ApiCalls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/page_objects/cms/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BJSS/framework/page_objects/cms/SearchPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,123 +114,109 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1994549403">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="feature" value="2" />
+          <entry key="java" value="24" />
+          <entry key="properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Cucumber" value="2" />
+          <entry key="JAVA" value="24" />
+          <entry key="Properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="292" />
+          <entry key="properties" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="292" />
+          <entry key="Properties" value="16" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/PurchaseItemsSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefinitions/PurchaseItemsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+            <state relative-caret-position="-372">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6823#6824#0" expanded="true" />
-                <element signature="e#6853#6854#0" expanded="true" />
+                <element signature="e#7091#7092#0" expanded="true" />
+                <element signature="e#7122#7123#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/PageObjectUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/ApiCallsSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+            <state relative-caret-position="101">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2914#2915#0" expanded="true" />
-                <element signature="e#2986#2987#0" expanded="true" />
-                <element signature="e#3646#3647#0" expanded="true" />
-                <element signature="e#3704#3705#0" expanded="true" />
-                <element signature="e#4076#4077#0" expanded="true" />
-                <element signature="e#4135#4136#0" expanded="true" />
-                <element signature="e#4221#4222#0" expanded="true" />
-                <element signature="e#4277#4278#0" expanded="true" />
-                <element signature="e#4772#4773#0" expanded="true" />
-                <element signature="e#4827#4828#0" expanded="true" />
-                <element signature="e#5189#5190#0" expanded="true" />
-                <element signature="e#5252#5253#0" expanded="true" />
-                <element signature="e#5965#5966#0" expanded="true" />
-                <element signature="e#6013#6014#0" expanded="true" />
-                <element signature="e#6539#6540#0" expanded="true" />
-                <element signature="e#6618#6619#0" expanded="true" />
-                <element signature="e#7340#7341#0" expanded="true" />
-                <element signature="e#7420#7421#0" expanded="true" />
-                <element signature="e#7491#7492#0" expanded="true" />
-                <element signature="e#7569#7570#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/PurchaseItem.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/WebDriverHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="1394">
+              <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+              <folding>
+                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.me">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/PurchaseItem.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/locales/uk.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/ShippingAddressPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/OrderHistoryPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/PaymentPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,13 +225,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/gui/QuickViewPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/ShippingAddressPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/PaymentPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/gui/QuickViewPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -229,7 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/WebDriverHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/gui/QuickviewPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/SearchPageModel.java" />
@@ -246,7 +298,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/ShippingAddressPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHelperj.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHook.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/CreateUsersModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/CreateUserModel.java" />
@@ -254,11 +305,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UsersDetailsModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UserLoginModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UserDetailModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/api/ApiCalls.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/ApiResponseModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ApiHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/Page_Object_Utility.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/CartSummaryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/gui/QuickViewPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/PurchaseItem.feature" />
@@ -266,22 +315,43 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/ApiCallsSteps.java" />
         <option value="$PROJECT_DIR$/README.me" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/api/ApiCalls.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/api/ApiCalls.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/Page_Object_Utility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/BillingAddressPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/CartSummaryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/MyAccountPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/OrderConfirmationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/OrderHistoryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/PaymentPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/ShippingAddressPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/gui/QuickViewPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefinitions/PurchaseItemsSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/locales/uk.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/PageObjectUtility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/WebDriverHelper.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="17" />
     <option name="y" value="59" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
@@ -316,16 +386,31 @@
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="features" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="AutomationTests" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AutomationTests" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="AutomationTests" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AutomationTests" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cucumber" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535526315883" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537737573397" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\togundare\Documents\Project\AutomationTests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -339,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: ApiCalls">
+  <component name="RunManager" selected="Cucumber java.Feature: PurchaseItem">
     <configuration name="Feature: ApiCalls" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature" />
@@ -382,8 +467,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: ApiCalls" />
         <item itemvalue="Cucumber java.Feature: PurchaseItem" />
+        <item itemvalue="Cucumber java.Feature: ApiCalls" />
       </list>
     </recent_temporary>
   </component>
@@ -401,12 +486,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__PurchaseItem - 2018.08.27 at 17h 29m 03s.xml">
-      <configuration name="Feature: PurchaseItem" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__PurchaseItem - 2018.08.27 at 17h 32m 52s.xml">
-      <configuration name="Feature: PurchaseItem" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__PurchaseItem - 2018.08.27 at 17h 35m 59s.xml">
       <configuration name="Feature: PurchaseItem" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -431,12 +510,17 @@
     <history-entry file="Feature__ApiCalls - 2018.08.29 at 07h 56m 40s.xml">
       <configuration name="Feature: ApiCalls" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__PurchaseItem - 2018.09.10 at 02h 46m 19s.xml">
+      <configuration name="Feature: PurchaseItem" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__PurchaseItem - 2018.09.10 at 02h 47m 33s.xml">
+      <configuration name="Feature: PurchaseItem" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34568834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,8 +528,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,7 +555,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="NONE" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/ApiCallsSteps.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefinitions/ApiCallsSteps.java</url>
           <line>49</line>
           <properties />
           <option name="timeStamp" value="8" />
@@ -480,40 +564,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/runners/RunTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHelperj.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/fjksjkfs.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UserLoginModel.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="712" column="25" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar!/com/sun/jna/platform/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/System.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar!/com/sun/jna/platform/FileUtils.java" />
     <entry file="file://$PROJECT_DIR$/radio.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHelper.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHook.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Date.java" />
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/2018-08-27T15-20-37_406.dumpstream">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -582,17 +639,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/Page_Object_Utility.java">
+    <entry file="file://$PROJECT_DIR$/README.me">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="306">
+          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/WebDriverHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UserDetailModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UserRegisterModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UsersDetailsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefinitions/ApiCallsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2914#2915#0" expanded="true" />
+            <element signature="e#2986#2987#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -603,10 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/OrderHistoryPageModel.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/SearchPageModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -623,216 +716,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/SearchPageModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UserDetailModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UserRegisterModel.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/OrderHistoryPageModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/models/UsersDetailsModel.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/api/ApiCalls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/api/ApiCalls.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/BillingAddressPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/BillingAddressPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/CartSummaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/CartSummaryPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-593">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/MyAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/MyAccountPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/OrderConfirmationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/OrderConfirmationPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/OrderHistoryPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/SearchPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/PaymentPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/ShippingAddressPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/OrderHistoryPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/cms/ShippingAddressPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/pageobjects/gui/QuickViewPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.0.1/cucumber-core-2.0.1.jar!/cucumber/api/Scenario.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefinitions/PurchaseItemsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7091#7092#0" expanded="true" />
+            <element signature="e#7122#7123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/PageObjectUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/cms/PaymentPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/ScreenshotHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/page_objects/gui/QuickViewPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/locales/uk.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/PurchaseItemsSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/helpers/WebDriverHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+        <state relative-caret-position="1394">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6823#6824#0" expanded="true" />
-            <element signature="e#6853#6854#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/PurchaseItem.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BJSS/framework/stepdefs/ApiCallsSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2914#2915#0" expanded="true" />
-            <element signature="e#2986#2987#0" expanded="true" />
-            <element signature="e#3646#3647#0" expanded="true" />
-            <element signature="e#3704#3705#0" expanded="true" />
-            <element signature="e#4076#4077#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4221#4222#0" expanded="true" />
-            <element signature="e#4277#4278#0" expanded="true" />
-            <element signature="e#4772#4773#0" expanded="true" />
-            <element signature="e#4827#4828#0" expanded="true" />
-            <element signature="e#5189#5190#0" expanded="true" />
-            <element signature="e#5252#5253#0" expanded="true" />
-            <element signature="e#5965#5966#0" expanded="true" />
-            <element signature="e#6013#6014#0" expanded="true" />
-            <element signature="e#6539#6540#0" expanded="true" />
-            <element signature="e#6618#6619#0" expanded="true" />
-            <element signature="e#7340#7341#0" expanded="true" />
-            <element signature="e#7420#7421#0" expanded="true" />
-            <element signature="e#7491#7492#0" expanded="true" />
-            <element signature="e#7569#7570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ApiCalls.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.me">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

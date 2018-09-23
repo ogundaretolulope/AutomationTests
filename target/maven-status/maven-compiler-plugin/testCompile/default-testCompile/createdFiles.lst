@@ -1,2 +1,16 @@
+com\BJSS\framework\pageobjects\api\ApiCalls.class
+com\BJSS\framework\pageobjects\cms\SearchPage.class
+com\BJSS\framework\pageobjects\cms\PaymentPage.class
+com\BJSS\framework\pageobjects\cms\ShippingAddressPage.class
+com\BJSS\framework\helpers\PageObjectUtility.class
+com\BJSS\framework\pageobjects\gui\QuickViewPage.class
+com\BJSS\framework\stepdefinitions\ApiCallsSteps.class
+com\BJSS\framework\stepdefinitions\PurchaseItemsSteps.class
+com\BJSS\framework\pageobjects\cms\CartSummaryPage.class
+com\BJSS\framework\pageobjects\cms\OrderConfirmationPage.class
+com\BJSS\framework\helpers\ScreenshotHelper.class
+com\BJSS\framework\pageobjects\cms\BillingAddressPage.class
+com\BJSS\framework\pageobjects\cms\HomePage.class
+com\BJSS\framework\pageobjects\cms\OrderHistoryPage.class
 com\BJSS\framework\runners\RunTests.class
-com\BJSS\framework\AppTest.class
+com\BJSS\framework\pageobjects\cms\MyAccountPage.class
